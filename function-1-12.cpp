@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int size_of_variable_arr()
+int size_of_variable_star_arr()
 {
     int a, *p;
     p = &a;
