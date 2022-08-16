@@ -16,8 +16,20 @@ float subtract_op(float left, float right)
     return left - right;
 }
 
-float arithmetic_ops(float left, float right, float (*op)(float, float))
+float arithmetic_ops(float left, float right, string functionName)
 {
-    float result = op(left, right);
-    return result;
+    if(functionName == "+")
+    {
+        return add_op(left, right);
+    }
+    if(functionName == "-")
+    {
+        return subtract_op(left, right);
+
+    }
+    else
+    {
+        return 0;
+    }
+
 }
