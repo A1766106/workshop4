@@ -3,11 +3,11 @@
 
 using namespace std;
 
-extern int size_of_variable_arr();
+extern int size_of_variable_star_arr();
 
 
 int main()
 {
-    cout << size_of_variable_arr() << endl;
+    cout << size_of_variable_star_arr() << endl;
     return 0;
 }
