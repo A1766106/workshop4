@@ -15,6 +15,14 @@ float subtract_op(float left, float right)
 {
     return left - right;
 }
+float multiply_op(float left, float right)
+{
+    return left * right;
+}
+float divide_op(float left, float right)
+{
+    return left / right;
+}
 
 float arithmetic_ops(float left, float right, string functionName)
 {
@@ -23,6 +31,16 @@ float arithmetic_ops(float left, float right, string functionName)
         return add_op(left, right);
     }
     if(functionName == "-")
+    {
+        return subtract_op(left, right);
+
+    }
+    if(functionName == "/")
+    {
+        return subtract_op(left, right);
+
+    }
+    if(functionName == "*")
     {
         return subtract_op(left, right);
 
