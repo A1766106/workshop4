@@ -11,10 +11,3 @@ int size_of_variable_star_t()
     return sizeof(t);
 }
 
-// int *t = new int;
-
-int main()
-{
-    cout << size_of_variable_star_t();
-    return 0;
-}

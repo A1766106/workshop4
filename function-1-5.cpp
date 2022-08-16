@@ -18,9 +18,3 @@ int size_of_variable_arr()
     // return sumSize;
 
 }
-
-int main()
-{
-    cout << size_of_variable_arr() << endl;
-    return 0;
-}
